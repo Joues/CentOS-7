@@ -15,6 +15,7 @@
 #### 3、保存并退出："Esc"    +    "："    +    "wq"，回车
 #### 4、# vim 40_custom
 写入以下内容:
+
     #!/bin/sh
     exec tail -n +3 $0
     # This file provides an easy way to add custom menu entries.  Simply type the
@@ -34,6 +35,7 @@
 #### 2.# grub2-set-default 'Windows 7' 验证默认启动项：
 #### 3.# grub2-editenv list
 输出：
+
      saved_entry=Windows 7
 
 
@@ -44,4 +46,5 @@
 #### 2.# grub2-set-default 'Windows 7' 验证默认启动项：
 #### 3.# grub2-editenv list
 输出：
+
      saved_entry=Windows 7
