@@ -34,7 +34,7 @@
 #### 2.# grub2-set-default 'Windows 7' 验证默认启动项：
 #### 3.# grub2-editenv list
 > 输出：
-     saved_entry=Windows 7
+>      saved_entry=Windows 7
 
 
 ### 三、CentOS 7+Win 7双系统，修改引导顺序（开机默认Win 7优先）：
@@ -44,4 +44,4 @@
 #### 2.# grub2-set-default 'Windows 7' 验证默认启动项：
 #### 3.# grub2-editenv list
 > 输出：
-     saved_entry=Windows 7
+>      saved_entry=Windows 7
